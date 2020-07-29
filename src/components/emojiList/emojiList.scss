@@ -1,0 +1,60 @@
+.emoji-list {
+  padding: 17px 12px 17px 12px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+  height: 314px;
+  justify-content: stretch;
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-track {
+    border-radius: 3px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 3px;
+  }
+  .fixed-header {
+    position: fixed;
+    height: 46px;
+    margin-top: -18px;
+    max-width: 301px;
+    display: none;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 1) 59%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    padding-top: 18px;
+    &.displayed {
+      display: flex;
+    }
+  }
+
+  .header {
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 100%;
+    font-size: 15px;
+    color: #171a1f;
+    height: 40px;
+  }
+
+  .emoji-group {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    justify-content: stretch;
+  }
+  .header {
+    padding: 0 8px 0 8px;
+    width: 100%;
+    font-size: 15px;
+    color: #171a1f;
+    height: 40px;
+  }
+}

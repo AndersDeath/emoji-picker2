@@ -1,0 +1,15 @@
+.emoji-tab-button {
+    width: 30px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    border-top: 2px solid #fff;
+    cursor: pointer;
+    &:hover {
+        transition: 0.3s;
+        border-top: 2px solid #248BF2;
+    }
+    &.active {
+        border-top: 2px solid #248BF2;
+    }
+}

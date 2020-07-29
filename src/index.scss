@@ -1,0 +1,17 @@
+@import "styles/variables.scss";
+
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $background-color;
+  font-family: "San Francisco";
+}
+
+#app {
+  height: 100vh;
+}

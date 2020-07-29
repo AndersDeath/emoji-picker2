@@ -1,0 +1,21 @@
+.emoji-search-area {
+  padding: 17px 12px 17px 12px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+  height: 314px;
+  justify-content: stretch;
+
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-track {
+    border-radius: 3px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 3px;
+  }
+}
